@@ -12,16 +12,17 @@
         <input type="text" name="total" id="total">
         <br>
         <label for="tip">Tip Amount</label>
-        <select name="tip">
+        <select name="tip" id="tips">
             <option value="fifteen">15</option>
             <option value="seventeen">17</option>
             <option value="twenty">20</option>
         </select>
     </form>
     <div> 
-        Total Due:
-        <div id="totalDue"></div>
+
+        Total Due: <div id="totalDue"></div>
     </div>
+    <button onclick="tipCalc()">Submit</button>
     <script src="main.js"></script>
 </body>
 </html>
